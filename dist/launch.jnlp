@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>DecodSatGDM</title>
+        <vendor>Corei3</vendor>
+        <homepage href=""/>
+        <description>DecodSatGDM</description>
+        <description kind="short">DecodSatGDM</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="DecodSatGDM.jar" main="true"/>
+    <jar href="lib/AbsoluteLayout.jar"/>
+</resources>
+    <application-desc main-class="controlador.ControlerDecodificador">
+    </application-desc>
+</jnlp>
